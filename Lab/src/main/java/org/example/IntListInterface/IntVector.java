@@ -3,9 +3,9 @@ package org.example.IntListInterface;
 import java.util.Arrays;
 
 public class IntVector implements IntList{
-    private static int size=0;
-    private static int maxSize=10;
-    private static int[] numbers=new int[maxSize];
+    private  int size=0;
+    private  int maxSize=10;
+    private  int[] numbers=new int[maxSize];
     @Override
     public void add(int number) {
         if(size<maxSize){
